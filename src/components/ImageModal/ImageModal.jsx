@@ -28,8 +28,8 @@ const ImageModal = ({ modalImages, closeModal, modalIsOpen }) => {
               <p className={styles.text}>
                 Photo: {modalImages.alt_description}
               </p>
-              <p className={styles.text}>Autor: {modalImages.user.name}</p>
-              <p className={styles.text}>Likes: {modalImages.likes}</p>
+              {/* <p className={styles.text}>Autor: {modalImages.user.name}</p>
+              <p className={styles.text}>Likes: {modalImages.likes}</p> */}
             </div>
           </div>
         )}
